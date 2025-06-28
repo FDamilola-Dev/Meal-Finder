@@ -38,6 +38,10 @@ It fetches meals using JavaScript and displays the results dynamically on the pa
 **Live Demo Link**
 https://meal-finder-c7wz.onrender.com
 
+**Loom video Link **
+
+https://www.loom.com/share/b0aaf095764c457bb237b78ed7d36653  
+
 
 **Features**
 Fetches real meal data from an open API
