@@ -7,26 +7,34 @@ body {
   color: #333;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap:20px;
   justify-content: center;
   align-items: center;
+}
+
+h1{
+  text-align: center;
+}
+.containerr {
+  margin: 0 auto;
+  width:80% ;
+  padding: 20px;
 }
 
 .mealCard container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.mealCard {
+.meal-card {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -34,21 +42,19 @@ body {
 }
 
 .mealCard img {
-  /* max-width: 100%; */
   border-radius: 10px;
-  /* border: 2px solid red; */
 }
 
 img {
   width: 50%;
-  border: 2px solid gold;
 }
+
 ul {
-  border: 2px solid red;
   list-style: none;
   text-align: center;
   margin: 10px 0;
   font-size: 1rem;
+  padding: 0;
 }
 
 li {
@@ -56,12 +62,11 @@ li {
 }
 
 a {
-    display: inline-block;
-    margin-top: 10px;
+    margin: 10px auto;
     padding: 10px 20px;
     background-color: #ff4757;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
+    font-weight: 700;
 }
