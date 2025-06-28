@@ -35,7 +35,8 @@ YouTube recipe video link
 
 It fetches meals using JavaScript and displays the results dynamically on the page.
 
-Live Demo Link
+**Live Demo Link**
+https://meal-finder-c7wz.onrender.com
 
 
 **Features**
